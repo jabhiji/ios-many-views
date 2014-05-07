@@ -21,6 +21,10 @@
 		1E2E7194191A4748009D232C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2E7176191A4748009D232C /* UIKit.framework */; };
 		1E2E719C191A4748009D232C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E719A191A4748009D232C /* InfoPlist.strings */; };
 		1E2E719E191A4748009D232C /* iOS_ManyViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E719D191A4748009D232C /* iOS_ManyViewsTests.m */; };
+		1E2E71A8191A4793009D232C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2E71A7191A4793009D232C /* background.png */; };
+		1E2E71AB191A48DD009D232C /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E71AA191A48DD009D232C /* Circle.m */; };
+		1E2E71AE191A48F5009D232C /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E71AD191A48F5009D232C /* Triangle.m */; };
+		1E2E71B1191A4C7D009D232C /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2E71B0191A4C7D009D232C /* Square.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		1E2E7199191A4748009D232C /* iOS-ManyViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-ManyViewsTests-Info.plist"; sourceTree = "<group>"; };
 		1E2E719B191A4748009D232C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E2E719D191A4748009D232C /* iOS_ManyViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_ManyViewsTests.m; sourceTree = "<group>"; };
+		1E2E71A7191A4793009D232C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1E2E71A9191A48DD009D232C /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		1E2E71AA191A48DD009D232C /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		1E2E71AC191A48F5009D232C /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		1E2E71AD191A48F5009D232C /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		1E2E71AF191A4C7D009D232C /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		1E2E71B0191A4C7D009D232C /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +126,16 @@
 				1E2E7181191A4748009D232C /* AppDelegate.h */,
 				1E2E7182191A4748009D232C /* AppDelegate.m */,
 				1E2E7184191A4748009D232C /* Main.storyboard */,
+				1E2E71A9191A48DD009D232C /* Circle.h */,
+				1E2E71AA191A48DD009D232C /* Circle.m */,
+				1E2E71AC191A48F5009D232C /* Triangle.h */,
+				1E2E71AD191A48F5009D232C /* Triangle.m */,
+				1E2E71AF191A4C7D009D232C /* Square.h */,
+				1E2E71B0191A4C7D009D232C /* Square.m */,
 				1E2E7187191A4748009D232C /* ViewController.h */,
 				1E2E7188191A4748009D232C /* ViewController.m */,
 				1E2E718A191A4748009D232C /* Images.xcassets */,
+				1E2E71A7191A4793009D232C /* background.png */,
 				1E2E7179191A4748009D232C /* Supporting Files */,
 			);
 			path = "iOS-ManyViews";
@@ -229,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E2E718B191A4748009D232C /* Images.xcassets in Resources */,
+				1E2E71A8191A4793009D232C /* background.png in Resources */,
 				1E2E717D191A4748009D232C /* InfoPlist.strings in Resources */,
 				1E2E7186191A4748009D232C /* Main.storyboard in Resources */,
 			);
@@ -249,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2E71B1191A4C7D009D232C /* Square.m in Sources */,
+				1E2E71AE191A48F5009D232C /* Triangle.m in Sources */,
 				1E2E7189191A4748009D232C /* ViewController.m in Sources */,
+				1E2E71AB191A48DD009D232C /* Circle.m in Sources */,
 				1E2E7183191A4748009D232C /* AppDelegate.m in Sources */,
 				1E2E717F191A4748009D232C /* main.m in Sources */,
 			);

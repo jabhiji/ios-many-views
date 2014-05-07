@@ -13,11 +13,16 @@
 @end
 
 @implementation ViewController
+@synthesize view1, view2, view3;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [view1 setNeedsDisplay];
+    [view2 setNeedsDisplay];
+    [view3 setNeedsDisplay];
 }
 
 - (void)didReceiveMemoryWarning
