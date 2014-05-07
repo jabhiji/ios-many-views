@@ -1,0 +1,6 @@
+ios-many-views
+==============
+
+quick illustration of custom drawing inside different views
+
+This project creates 3 subclasses of UIView to draw custom shapes and then creates instances of these classes in the ViewController to draw the shapes. 
